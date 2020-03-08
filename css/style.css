@@ -1,0 +1,142 @@
+ul, ol{
+    list-style: none;
+}
+
+#our_team{
+    background: #F7F7F7;
+    padding: 50px 0px;
+}
+
+#our_team .team_header h6{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ADCE60;
+}
+
+#our_team .team_header h1{
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 700;
+    color: #777777;
+    position: relative;
+}
+
+#our_team .team_header h1::before{
+    content: '';
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #ADCE60;
+    width: 100px;
+    height: 3px;
+}
+
+#our_team .card {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+#our_team .card .card-body h5{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+#our_team .card .card_img_overaly{
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+#our_team .card:hover .card_img_overaly{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(51, 51, 51, 0.3);
+}
+
+
+#our_team .card .card-body h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: #ADCE60;
+}
+
+#our_team .card .card-body{
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: #2F4649;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+#our_team .card:hover .card-body{
+    height: 40%;
+}
+
+#our_team .card .card-body ul {
+	width: 93%;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+#our_team .card .card-body ul li{
+    float: left;
+}
+
+#our_team .card .card-body ul li a{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    display: inline-block;
+    text-align: center;
+    margin: 0px 5px;
+    opacity: 0;
+    overflow: hidden;
+    color: #fff;
+    transition: all linear 0.4s;
+    -webkit-transition: all linear 0.4s;
+    -moz-transition: all linear 0.4s;
+    -ms-transition: all linear 0.4s;
+    -o-transition: all linear 0.4s;
+}
+
+#our_team .card .card-body ul li:hover a{
+    background: #ADCE60;
+}
+
+#our_team .card:hover .card-body ul li a{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

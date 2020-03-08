@@ -1,0 +1,66 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    #our_team .card .card-body {
+        height: 20% !important;
+    }
+
+    #our_team .card:hover .card-body {
+        height: 30% !important;
+    }
+
+    #our_team .card .card-body ul {
+        width: 60% !important;
+    }
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #our_team .card .card-body {
+        height: 20% !important;
+    }
+
+    #our_team .card:hover .card-body {
+        height: 30% !important;
+    }
+
+    #our_team .card .card-body ul {
+        width: 66% !important;
+    }
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #our_team .card .card-body ul {
+        width: 100% !important;
+        padding-top: 0px !important;
+        margin-left: -6px !important;
+    }
+
+    #our_team .card .card-body {
+        bottom: -98px !important;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #our_team .card .card-body {
+        height: 35% !important;
+    }
+
+    #our_team .card:hover .card-body {
+        height: 45% !important;
+    }
+
+    #our_team .card .card-body ul {
+        width: 100% !important;
+        margin: 0px !important;
+        padding: 11px !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
